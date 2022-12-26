@@ -354,7 +354,8 @@ li:hover>.telegram {
     background-image: linear-gradient(0deg, #d6a0a0 0%, #ca7f7f 99%, #995252 100%);
 }
 
-.butt-play:hover > .hide{
+.butt-play:hover > .hide,
+.butt-play a:hover > .line-b {
     display: block;
 }
 
@@ -363,14 +364,14 @@ li:hover>.telegram {
 }
 
 .line-b {
-    position: relative;
+    display: none
 }
 
 .line-b::before {
     position: absolute;
     content: "";
-    top: -45px;
-    left: 35px;
+    top: -24px;
+    left: 25px;
     width: 106px;
     height: 2px;
     border-bottom: 1px solid #000;
@@ -379,8 +380,8 @@ li:hover>.telegram {
 .line-b::after {
     position: absolute;
     content: "";
-    top: -78px;
-    left: 125px;
+    top: -57px;
+    left: 115px;
     width: 100px;
     border-bottom: 1px solid #000;
     transform: rotate(-45deg);
@@ -606,6 +607,7 @@ li:hover>.telegram {
 }
 
 .scroll {
+    padding: 40px;
     overflow-x: scroll;
 }
 
