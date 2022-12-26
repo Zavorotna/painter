@@ -1047,6 +1047,10 @@ li:hover>.telegram {
     position: relative;
 }
 
+.contacts-icon li:hover > a {
+    text-decoration: underline;
+}
+
 .icon-bootom-mail::before,
 .icon-bottom-phone::before {
     content: "";
