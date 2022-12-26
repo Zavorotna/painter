@@ -786,11 +786,14 @@ li:hover>.telegram {
 .send-form-sale h2,
 .lesson-form-position h2{
     margin-bottom: 75px;
-    padding-left: 35px;
     font-size: 30px;
     color: #000000;
     font-weight: 700;
     text-align: center;
+}
+
+.lesson-form-position h2 {
+    padding-left: 35px;
 }
 
 .send-form-sale {
