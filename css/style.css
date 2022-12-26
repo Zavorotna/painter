@@ -362,11 +362,15 @@ li:hover>.telegram {
     display: none;
 }
 
+.line-b {
+    position: relative;
+}
+
 .line-b::before {
     position: absolute;
     content: "";
-    top: 80.8%;
-    left: 38%;
+    top: -45px;
+    left: 35px;
     width: 106px;
     height: 2px;
     border-bottom: 1px solid #000;
@@ -375,8 +379,8 @@ li:hover>.telegram {
 .line-b::after {
     position: absolute;
     content: "";
-    top: 74.8%;
-    left: 45%;
+    top: -78px;
+    left: 125px;
     width: 100px;
     border-bottom: 1px solid #000;
     transform: rotate(-45deg);
