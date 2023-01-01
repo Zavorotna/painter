@@ -1009,7 +1009,7 @@ li:hover>.telegram {
 }
 
 .bottom-contact {
-    position: absolute;
+    position: relative;
     top: 65px;
     left: 150px;
     width: 627px;
@@ -1022,7 +1022,7 @@ li:hover>.telegram {
 }
 
 .contact-slide {
-    left: 550px;
+    left: 350px;
 }
 
 .bottom-contact h2 {
