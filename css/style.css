@@ -1009,18 +1009,25 @@ li:hover>.telegram {
 }
 
 .bottom-contact {
-    position: relative;
+    position: absolute;
     top: 65px;
     left: 150px;
     width: 627px;
-    height: 345px;
+    padding-top: 70px;
+    padding-bottom: 50px;
     background-color: #fff5f5;
     border-radius: 20px;
+    transition: 1s;
+    max-width: 627px;
+}
+
+.contact-slide {
+    left: 550px;
 }
 
 .bottom-contact h2 {
     margin: 0;
-    padding: 80px 0 50px;
+    padding-bottom: 50px;
     font-size: 48px;
     color: #000000;
     font-weight: 800;
@@ -1086,7 +1093,7 @@ li:hover>.telegram {
 
 a.inst-bott {
     position: absolute;
-    top: 55%;
+    top: 51%;
     right: 16%;
     height: 15px;
     width: 15px;
@@ -1100,7 +1107,7 @@ li:hover>.inst-bott {
 
 a.fb-bott {
     position: absolute;
-    top: 63%;
+    top: 60%;
     right: 16.5%;
     height: 14px;
     width: 9px;
@@ -1114,7 +1121,7 @@ li:hover>.fb-bott {
 
 a.pint-bott {
     position: absolute;
-    top: 71%;
+    top: 68%;
     right: 16.2%;
     height: 14px;
     width: 12px;
@@ -1128,7 +1135,7 @@ li:hover>.pint-bott {
 
 a.telegram-bott {
     position: absolute;
-    top: 78%;
+    top: 75%;
     right: 16.3%;
     height: 13px;
     width: 15px;
