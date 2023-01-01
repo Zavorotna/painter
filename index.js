@@ -1,4 +1,4 @@
 bottomContact.onklick = function () {
-    bottomContact. classList .toggle("contact-slide");
+    bottomContact.classList.toggle("contact-slide");
 }
 
