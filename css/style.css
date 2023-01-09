@@ -287,7 +287,8 @@ li:hover>.telegram {
     filter: drop-shadow(0px 0px 1px red);
 }
 
-.main-info h1::before {
+.ua-brush::before,
+.brush::before {
     content: "";
     position: absolute;
     top: 77px;
@@ -297,13 +298,22 @@ li:hover>.telegram {
     background: url(../img/paintbrush-head.svg) no-repeat;
 }
 
-.main-info h1::after {
+.brush::before {
+    left: 36%;
+}
+
+.ua-brush::after,
+.brush::after {
     content: "";
     position: absolute;
     top: 164px;
     left: 42%;
     width: 60px;
     border-bottom: 2px solid ;
+}
+
+.brush::after {
+    left: 32%;
 }
 
 .main-info p {
